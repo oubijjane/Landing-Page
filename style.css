@@ -118,3 +118,13 @@ button {
     width: 150px;
     text-align: center;
 }
+
+.quot {
+    background-color: #E5E7EB;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    padding: 40px 450px;
+    font-size: 36px;
+    font-style: italic;
+}
