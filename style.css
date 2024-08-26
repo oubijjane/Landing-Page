@@ -74,6 +74,7 @@ button {
     border: 2px;
     padding: 10px;
     width: 80px;
+    height: 36px;
     font-size: 14px;
     background-color: #3882f6;
     color: #E5E7EB;
@@ -124,7 +125,60 @@ button {
     display: flex;
     align-items: center;
     align-content: center;
-    padding: 40px 450px;
+    padding: 5% 20%;
     font-size: 36px;
     font-style: italic;
+    height: 400px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    margin: 50px auto;
+    
+    
+}
+
+.container4 {
+    display: flex;
+    background-color: #3882f6;
+    width: 600px;
+    justify-content: space-between;
+    box-sizing:border-box;
+    width: 1200px;
+    height: 150px;
+    border-radius: 15px;
+    
+
+}
+
+.container4 .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    gap: 0px;
+}
+
+.container4 p{
+    margin: 0;
+    margin-left: 100px;
+
+}
+.container4 button {
+    margin-top: 60px;
+    border: 1px solid white;
+    margin-right: 100px;
+}
+
+p.text1 {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+p.text2 {
+    font-size: 18px;
+    color: #F9FAF8;
 }
